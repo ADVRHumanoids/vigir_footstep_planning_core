@@ -26,11 +26,11 @@ endif(COMMAND cmake_policy)
 
 project(vigir_footstep_planning_core)
 
+add_subdirectory(vigir_footstep_planning_default_plugins)
 add_subdirectory(vigir_feet_pose_generator)
 add_subdirectory(vigir_foot_pose_transformer)
 add_subdirectory(vigir_footstep_planner)
 add_subdirectory(vigir_footstep_planning)
-add_subdirectory(vigir_footstep_planning_default_plugins)
 add_subdirectory(vigir_global_footstep_planner)
 add_subdirectory(vigir_pattern_generator)
 add_subdirectory(vigir_walk_monitor)
