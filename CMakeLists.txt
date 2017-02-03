@@ -26,6 +26,8 @@ endif(COMMAND cmake_policy)
 
 project(vigir_footstep_planning_core)
 
+FIND_PACKAGE(SBPL)
+
 add_subdirectory(vigir_foot_pose_transformer)
 add_subdirectory(vigir_feet_pose_generator)
 add_subdirectory(vigir_footstep_planning_default_plugins)
